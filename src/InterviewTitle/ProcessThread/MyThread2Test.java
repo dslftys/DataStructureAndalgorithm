@@ -8,9 +8,9 @@ public class MyThread2Test {
 
 	@Test
 	public void test() {
-		new Thread(new MyThread2("cat")).start();
-		new Thread(new MyThread2("dog")).start();
-		
+		MyThread2 thread2=new MyThread2();
+		new Thread(thread2,"cat").start();
+		new Thread(thread2,"dog").start();
 	}
 
 }

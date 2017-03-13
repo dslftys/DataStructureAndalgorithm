@@ -9,12 +9,11 @@ public class AliBaBa {
 	 /** 当然，你也可以不按照这个模板来作答，完全按照自己的想法来 ^-^  **/
 	    static boolean resolve(int[] A) {
 	    	ArrayList<Integer>list=new ArrayList<Integer>();
-	    	list=resolveTwo(A);
+	    	list=resolveTwo(A,1,1);
 	    	if(list.size()==1) return false;
 	    	else{
-	    		int 
 	    	}
-
+	    	return false;
 	    }
 	    public static  ArrayList<Integer> resolveTwo(int [] A,int start,int end){
 	    	long diff=0;
