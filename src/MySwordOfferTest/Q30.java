@@ -8,7 +8,7 @@ import SwordOffer.node.ListNode;
 /*
  * 输入一个链表，从尾到头打印链表每个节点的值。
  */
-public class Q3 {
+public class Q30 {
 	public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
 	        ArrayList<Integer> arrayList=new ArrayList<>();
 	        if(listNode==null) return arrayList;

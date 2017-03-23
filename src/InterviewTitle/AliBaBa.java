@@ -15,6 +15,7 @@ public class AliBaBa {
 	    	}
 	    	return false;
 	    }
+	    
 	    public static  ArrayList<Integer> resolveTwo(int [] A,int start,int end){
 	    	long diff=0;
 	    	int left=start,right=end;
@@ -42,6 +43,7 @@ public class AliBaBa {
 	    	}
 	    	return list;
 	    }
+	    
 	    public static void main(String[] args){
 	        ArrayList<Integer> inputs = new ArrayList<Integer>();
 	        Scanner in = new Scanner(System.in);
